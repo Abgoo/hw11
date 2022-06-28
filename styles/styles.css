@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: roboto demi;
+}
+
+.nav-link a {
+    color: #000;
+}
+
+.nav-link a:hover {
+    color: lightseagreen;
+    transition: 0.3s ease;
+}
+
+.logo1 {
+    max-height: 20px;
+    max-width: 40px;
+    margin-right: 20px;
+}
+
+.number {
+    display: flex;
+    font-size: 20px;
+}
+
+.number span {
+    color: red;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+
+/* 2nd section */
+
+.second-section {
+    margin-top: 30px;
+    width: 1170px;
+    height: 965px;
+}
+
+.img {
+    background: url(../img/main\ img.png) no-repeat;
+}
+
+.title1 {
+    color: #fff;
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: roboto;
+}
+
+.title2 {
+    color: #fff;
+    padding-top: 40px;
+    font-size: 75px;
+    font-family: roboto bold;
+}
+
+.button {
+    margin-top: 30px;
+    width: 300px;
+    height: 92px;
+    background-color: #5EB6E1;
+    border-radius: 5%;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.7s linear;
+}
+
+.button p {
+    color: #000;
+    font-size: 30px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.first-box {
+    background: url(../img/img1.png);
+    width: 476px;
+    height: 283px;
+}
+
+.second-box {
+    background: url(../img/img2.png);
+    width: 476px;
+    height: 283px;
+}
+
+.third-box {
+    background: url(../img/img3.png);
+    width: 476px;
+    height: 283px;
+}
+
+.center {
+    flex-direction: column;
+    color: #fff;
+}
+
+.btn2 {
+    width: 137px;
+    height: 40px;
+}
+
+.left-box {
+    display: flex;
+    max-width: 709px;
+    max-height: 692px;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.orange {
+    color: orange;
+}
+
+.title3 {
+    font-size: 15px;
+    font-family: roboto;
+}
+
+.welcome {
+    font-size: 60px;
+}
+
+.line {
+    width: 168px;
+    height: 2px;
+    background-color: skyblue;
+}
